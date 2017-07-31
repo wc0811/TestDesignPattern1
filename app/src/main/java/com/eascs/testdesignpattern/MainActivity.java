@@ -38,7 +38,8 @@ public class MainActivity extends AppCompatActivity {
          * 6、一个软件实体如类，模块和函数，应该对扩展开放，对修改关闭：
          * 具体解析：一个软件实体应该通过扩展来实现变化，而不是通过已有代码来实现变化，
          * int 型数据通过*100 或除100来实现通过精度变化导致的误差
-         *
+         *5、迪米特原则（最少知识原则（least Knowledge Principle(LKP)））,
+         * 朋友类的定义，出现在成员变量，方法的输入输出参数中的类称为成员朋友类，而出现在方法体内部的类，不属于朋友类，
          */
         return null;
     }
