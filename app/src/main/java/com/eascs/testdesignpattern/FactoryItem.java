@@ -13,15 +13,15 @@ public class FactoryItem extends Factory {
     @Override
     public <T extends ClassSingle1> T creator(Class<T> c) {
         ClassSingle1 classSingle1 = null;
-        try {
-            classSingle1 = new (ClassSingle1) Class.forName(c.getName()).newInstance();
-        } catch (InstantiationException e) {
-            e.printStackTrace();
-        } catch (IllegalAccessException e) {
-            e.printStackTrace();
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        }
+//        try {
+//            classSingle1 = new (ClassSingle1) Class.forName(c.getName()).newInstance();
+//        } catch (InstantiationException e) {
+//            e.printStackTrace();
+//        } catch (IllegalAccessException e) {
+//            e.printStackTrace();
+//        } catch (ClassNotFoundException e) {
+//            e.printStackTrace();
+//        }
         return (T) classSingle1;
     }
 }
