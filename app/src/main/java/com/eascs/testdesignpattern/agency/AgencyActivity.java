@@ -32,6 +32,8 @@ public class AgencyActivity extends AppCompatActivity {
          *
          * 中介者模式的缺点：中介者本身会膨胀的很大，而且逻辑复杂，同事类越多，中介者越复杂
          *
+         * 命令模式
+         *
          */
     }
 }
