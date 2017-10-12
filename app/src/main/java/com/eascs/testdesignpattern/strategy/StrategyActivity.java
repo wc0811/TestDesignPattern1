@@ -9,6 +9,10 @@ import android.support.v7.app.AppCompatActivity;
  * <p>
  * email：wc0811@163.com
  * <p>
+ * <p>
+ * <p>
+ * 策略模式有和建造者模式不同的各种地方
+ * <p>
  * 类描述：
  * <p>
  * 更改记录：
