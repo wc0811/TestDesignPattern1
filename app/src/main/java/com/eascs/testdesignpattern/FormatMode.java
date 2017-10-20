@@ -14,8 +14,6 @@ package com.eascs.testdesignpattern;
  */
 public class FormatMode implements Cloneable {
     //有些步骤和方法是需要子类实现的
-
-
     @Override
     protected Object clone() throws CloneNotSupportedException {
         return super.clone();
