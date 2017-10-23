@@ -12,8 +12,6 @@ package com.eascs.testdesignpattern.chain;
 public class Child implements IHandler {
     @Override
     public void handlerMessage(IWomen women) {
-//        母亲的请求是
-//        母亲的答复是
     }
 
     @Override
