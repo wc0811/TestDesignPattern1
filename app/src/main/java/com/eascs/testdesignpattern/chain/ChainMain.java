@@ -11,6 +11,10 @@ package com.eascs.testdesignpattern.chain;
  * <p>
  * <p>
  * 更改记录：
+ * 定义：使多个对象都有机会处理请求，从而避免了请求的发送者和接收者之间的耦合关系，将这些请求练成一条链，并沿着这条链处理这些请求；
+ * 知道有对象处理他为止
+ * 重点：重点内容有三点：1、必须有个处理责任链的方式，第二个，下一处理方案，第三个：也是最重要的，就是resanse，有了回应，事情就算是好办多了
+ *
  */
 public class ChainMain {
     public ChainMain() {
