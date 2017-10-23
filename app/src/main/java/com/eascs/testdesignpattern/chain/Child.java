@@ -15,4 +15,14 @@ public class Child implements IHandler {
 //        母亲的请求是
 //        母亲的答复是
     }
+
+    @Override
+    public void nextChain() {
+
+    }
+
+    @Override
+    public void response() {
+
+    }
 }

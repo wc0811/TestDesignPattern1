@@ -15,4 +15,14 @@ public class Husband implements IHandler {
         //妻子的请求是
         //妻子的答复是
     }
+
+    @Override
+    public void nextChain() {
+        
+    }
+
+    @Override
+    public void response() {
+
+    }
 }
