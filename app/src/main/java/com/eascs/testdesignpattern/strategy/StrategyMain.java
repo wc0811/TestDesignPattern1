@@ -11,6 +11,8 @@ package com.eascs.testdesignpattern.strategy;
  * 缺点：策略类数量增多，所有的策略类都需要对外暴漏；
  * 适用场景：多个类只有在算法或行为上稍有不同的场景，算法需要自由切换的场景；需要屏蔽算法规则的场景
  * <p>
+ * 扩展：可以扩展到很宽的一个范围，但是大部分内容都是可以实现的
+ * <p>
  * 更改记录：
  */
 public class StrategyMain {
