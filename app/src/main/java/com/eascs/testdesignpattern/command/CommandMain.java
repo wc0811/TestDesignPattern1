@@ -7,7 +7,6 @@ package com.eascs.testdesignpattern.command;
  * <p>
  * 类描述：本质：对命令进行封装，将发出命令和执行命令的责任分开
  * <p>
- * 更改记录：
  */
 public class CommandMain {
 }
