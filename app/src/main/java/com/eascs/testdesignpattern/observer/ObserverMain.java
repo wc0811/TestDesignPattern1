@@ -10,6 +10,7 @@ package com.eascs.testdesignpattern.observer;
  * 会通知所有观察者，让他们自动更新
  * 一个1VN的关系
  * <p>
+ * Java也提供了对观察者模式的内置支持
  * 更改记录：
  */
 public class ObserverMain {
