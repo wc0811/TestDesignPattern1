@@ -21,7 +21,7 @@ package com.eascs.testdesignpattern.observer;
  * 使用场景：1、关联行为场景，关联是可拆分的而不是组合关系，
  * 2、事件多级触发，
  * 3、跨系统的消息交换场景，如消息队列的处理机制
- * 注意事项：1、广播链的问题：消息被多次转发后，倒置效率超级低，一点效用都没有
+ * 注意事项：1、广播链的问题：消息被多次转发后，倒置效率超级低，一点效用都没有，道可道，非常道
  */
 public class ObserverMain {
     private IWatched watched = new ConcreteWatched();
