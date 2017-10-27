@@ -17,7 +17,7 @@ public class Client {
     }
 
     private void operation(Prototype example) {
-        Prototype prototypeCopy = (Prototype) prototype.clone();
+        Prototype prototypeCopy = (Prototype) prototype.cloneTest();
     }
 
 }

@@ -10,5 +10,5 @@ package com.eascs.testdesignpattern.prototype;
  * 更改记录：
  */
 public interface Prototype {
-    public Object clone();
+    Object cloneTest();
 }

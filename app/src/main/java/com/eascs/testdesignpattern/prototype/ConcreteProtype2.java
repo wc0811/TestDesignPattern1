@@ -11,7 +11,7 @@ package com.eascs.testdesignpattern.prototype;
  */
 public class ConcreteProtype2 implements Prototype {
     @Override
-    public Prototype clone() {
+    public Prototype cloneTest() {
         Prototype prototype = new ConcreteProtype2();
         return prototype;
     }
