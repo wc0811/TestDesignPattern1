@@ -1,9 +1,9 @@
 package com.eascs.testdesignpattern;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
-import com.eascs.testdesignpattern.compose.composenew.ComposeMain;
+import com.eascs.testdesignpattern.memento.MemenToClient;
 
 import java.util.Collection;
 
@@ -14,7 +14,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         getCollection();
-        new ComposeMain();
+//        new ComposeMain();
+        new MemenToClient();
     }
 
     private Collection getCollection() {
