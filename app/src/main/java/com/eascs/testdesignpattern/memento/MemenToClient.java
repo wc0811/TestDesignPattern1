@@ -9,6 +9,7 @@ package com.eascs.testdesignpattern.memento;
  * <p>
  * 更改记录：1.1 优化后的备忘录模式
  * 1.2 添加新的备忘录管理类
+ *
  */
 public class MemenToClient {
     public MemenToClient() {
