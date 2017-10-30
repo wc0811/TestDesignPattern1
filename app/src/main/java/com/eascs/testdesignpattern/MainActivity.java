@@ -3,7 +3,7 @@ package com.eascs.testdesignpattern;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-import com.eascs.testdesignpattern.memento.MemenToClient;
+import com.eascs.testdesignpattern.visitor.VisitorMain;
 
 import java.util.Collection;
 
@@ -15,7 +15,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         getCollection();
 //        new ComposeMain();
-        new MemenToClient();
+//        new MemenToClient();
+        new VisitorMain();
     }
 
     private Collection getCollection() {
