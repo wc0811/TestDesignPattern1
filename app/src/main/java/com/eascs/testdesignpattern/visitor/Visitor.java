@@ -7,7 +7,7 @@ import android.util.Log;
  * <p>
  * email：wc0811@163.com
  * <p>
- * 类描述：
+ * 类描述：访问者模式，是对象对数据的处理
  * <p>
  * 更改记录：
  */
@@ -22,15 +22,15 @@ public class Visitor implements IVisitor {
     public void visit(Manager manager) {
         Log.i("CW", "访问中层员工，打印报表");
         getManagerInfo(manager);
-        }
+    }
 
     private void getBasicInfo(Employee employee) {
 
         String strInfo = "";
         strInfo += "姓名：" + employee.getName() + "\r\n" +
                 "薪水：" + employee.getSalay() + "\r\n" +
-                "性别：" + (employee.getSex() == 1 ? "女" : "男")
-                + employee.getOterInfo();
+                "性别：" + (employee.getSex() == 1 ? "女" : "男");
+//                + employee.getOterInfo();
         Log.i("CW", strInfo);
 
     }
@@ -51,8 +51,8 @@ public class Visitor implements IVisitor {
         String strInfo = "";
         strInfo += "姓名：" + commonEmployee.getName() + "\r\n" +
                 "薪水：" + commonEmployee.getSalay() + "\r\n" +
-                "性别：" + (commonEmployee.getSex() == 1 ? "女" : "男")
-                + commonEmployee.getOterInfo();
+                "性别：" + (commonEmployee.getSex() == 1 ? "女" : "男");
+//                + commonEmployee.getOterInfo();
         Log.i("CW", strInfo);
 
     }

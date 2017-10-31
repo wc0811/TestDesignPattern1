@@ -1,5 +1,7 @@
 package com.eascs.testdesignpattern.visitor;
 
+import com.eascs.testdesignpattern.visitor.cmn.Element;
+
 /**
  * Create By chao.wang on 2017/10/31 13:31
  * <p>
@@ -11,7 +13,9 @@ package com.eascs.testdesignpattern.visitor;
  * 更改记录：
  */
 public interface IVisitor {
-    public void visit(CommonEmployee commonEmployee);
+    public void visit(CommonEmployee commonEmployee);//可以访问那些对象
 
-    public void visit(Manager manager);
+    public void visit(Manager manager);//可以访问那些对象
+
+    public void visit(Element element);//可以访问那些对象
 }

@@ -22,7 +22,12 @@ public class CommonEmployee extends Employee {
     }
 
     @Override
-    protected String getOterInfo() {
-        return "\r\n" + "工作：" + this.job + "\r\n";
+    public void accept(IVisitor visitor) {
+
     }
+
+//    @Override
+//    protected String getOterInfo() {
+//        return "\r\n" + "工作：" + this.job + "\r\n";
+//    }
 }
