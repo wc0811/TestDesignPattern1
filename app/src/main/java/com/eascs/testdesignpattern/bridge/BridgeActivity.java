@@ -9,7 +9,7 @@ import android.support.v7.app.AppCompatActivity;
  * <p>
  * email：wc0811@163.com
  * <p>
- * 类描述：
+ * 类描述：将操作和数据库分割开来，实现两者的分离
  * <p>
  * 更改记录：
  */
